@@ -1,0 +1,83 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+  .header {
+      height: 145px;
+      background: rgb(12, 27, 32);
+      margin: 0auto;
+   
+  }
+  body {
+      height: 1000px;
+      background:linear-gradient(#f3ada1, #85bdb1);
+  }
+  .header-logo {
+
+    font-size: 55px;
+    font-weight: bold;
+    float: left;
+    color: #fff;
+    padding: 35px 50px;
+    letter-spacing: 15px;
+    
+  }
+
+  .header-list li {
+
+    font-size: 30px;
+    float: right;
+    padding: 50px 50px;
+    color: #fff;
+    list-style: none;
+    
+   
+  }
+  .container {
+
+    font-size: 60px;
+    padding-left: 110px;
+    padding-top: 115px;
+    margin-top: 200px; 
+  }
+ .container h1{ 
+   color:rgb(240, 227, 227);
+   
+  } 
+    
+  
+ .container span {
+      color: rgb(168, 0, 0);
+  } 
+
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    cursor:pointer;
+  }
+ .btn:hover {
+   opacity: 1;
+
+ }
+ .welcom .logo {
+   background-color: transparent;
+ }
+ 
+ .works:active {
+   color:gray;
+ }
+ .profile:active {
+   color:grey;
+ }
+  .enter:active {
+   color: red;
+ }
+   .container  {
+   text-align: center;
+ }
